@@ -25,3 +25,13 @@ $("#boton1").click(function(){
 $("#boton2").click(function(){
     window.location.href = "https://www.google.com/";
 });
+
+let txt1 = "<h1>Binvenido</h1>";
+let txt2 = "<h1>a cookielandia</h1>";
+$("#boton1").click(function(){
+
+    $("body").append(txt1, txt2);
+
+});
+
+
