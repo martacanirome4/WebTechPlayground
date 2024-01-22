@@ -1,5 +1,7 @@
 # Tecnologías
 
+Colección de ejemplos muy simples que muestran el uso de diversas tecnologías web: JavaScript, jQuery, AJAX, Express.js, Node.js y Socket.IO. 
+
 ## JavaScript (JS)
 
 JavaScript es un lenguaje de programación de alto nivel e interpretado ampliamente utilizado para hacer que las páginas web sean interactivas. Es una tecnología fundamental para el desarrollo web y puede ejecutarse en navegadores web para mejorar la experiencia del usuario.
