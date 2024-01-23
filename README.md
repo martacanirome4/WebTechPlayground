@@ -2,8 +2,7 @@
 
 Este repositorio contiene una colección de ejemplos muy simples que muestran el uso de diversas tecnologías web: JavaScript, jQuery, AJAX, Express.js, Node.js y Socket.IO. 
 
-![Loving I Love You Sticker by Simon Falk for iOS   Android _ GIPHY](https://github.com/martacanirome4/WebTechPlayground/assets/50625677/b5471f24-480b-4eec-b77a-393e1d3f674f)
-
+![Яндекс_Фотки переехали](https://github.com/martacanirome4/js-practice/assets/50625677/37ead303-ca72-439e-a951-ef019ca5350f)
 
 # Tecnologías
 
@@ -37,5 +36,4 @@ Node.js es un entorno de ejecución de JavaScript del lado del servidor. Permite
 ## Socket.IO
 Socket.IO es una biblioteca de JavaScript para aplicaciones web en tiempo real. Facilita la comunicación bidireccional en tiempo real entre clientes y servidores. Socket.IO utiliza WebSockets cuando están disponibles y, en su ausencia, utiliza otros mecanismos de comunicación, proporcionando una experiencia en tiempo real sin problemas.
 
-![Яндекс_Фотки переехали](https://github.com/martacanirome4/js-practice/assets/50625677/37ead303-ca72-439e-a951-ef019ca5350f)
-
+![Loving I Love You Sticker by Simon Falk for iOS   Android _ GIPHY](https://github.com/martacanirome4/WebTechPlayground/assets/50625677/b5471f24-480b-4eec-b77a-393e1d3f674f)
