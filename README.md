@@ -2,13 +2,17 @@
 
 Este repositorio contiene una colección de ejemplos muy simples que muestran el uso de diversas tecnologías web: JavaScript, jQuery, AJAX, Express.js, Node.js y Socket.IO. 
 
+![heart](https://github.com/martacanirome4/WebTechPlayground/assets/50625677/8aa090d4-c065-467d-807e-7e169a2ac275)
+
+
+
 # Tecnologías
 
 ## JavaScript (JS)
 JavaScript es un lenguaje de programación de alto nivel e interpretado ampliamente utilizado para hacer que las páginas web sean interactivas. Es una tecnología fundamental para el desarrollo web y puede ejecutarse en navegadores web para mejorar la experiencia del usuario.
 
 ## jQuery
-jQuery es una biblioteca de JavaScript rápida y liviana. Simplifica tareas como la manipulación y traversing del documento HTML, manejo de eventos y animaciones. jQuery facilita la escritura de código JavaScript del lado del cliente y es particularmente útil para las solicitudes AJAX.
+jQuery es una biblioteca de JavaScript rápida y ligera. Simplifica tareas como la manipulación y traversing del documento HTML, manejo de eventos y animaciones. jQuery facilita la escritura de código JavaScript del lado del cliente y es particularmente útil para las solicitudes AJAX.
 
 ## AJAX (Asynchronous JavaScript and XML)
 AJAX es un conjunto de técnicas de desarrollo web que permite la actualización asíncrona de páginas web al intercambiar pequeñas cantidades de datos con el servidor en segundo plano. Esto permite interfaces de usuario más dinámicas y receptivas sin necesidad de recargar la página completa.
