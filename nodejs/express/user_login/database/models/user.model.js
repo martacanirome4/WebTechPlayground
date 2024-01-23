@@ -1,7 +1,8 @@
+// user_login/database/models/user.model.js
+
 const bcrypt = require('bcrypt');
 
-users = {};
-
+const users = {};
 users.data = {};
 
 users.generateHash = function(password, callback){
@@ -20,7 +21,7 @@ users.register = function(username, password){
         if(err){
             throw new Error(`Error al generar el hash de ${username}.`);
         }
-        users.data[username] = {username, hash, last_Login: new Date().toISOString};
+        users.data[username] = {username, hash, last_Login: new Date().toISOString() };
     });
 }
 

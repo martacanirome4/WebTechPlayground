@@ -10,7 +10,7 @@ const loginRouter = require('./routes/login');
 const restrictedRouter = require('./routes/restricted');
 
 const app = express();
-app.locals.title = "Demo Login";
+app.locals.title = "Dale al login dale :D";
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(session({
-  secret: "La frase que querais",
+  secret: "hola?",
   resave: false,
   saveUninitialized: true
 }));
