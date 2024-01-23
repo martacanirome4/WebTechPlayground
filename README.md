@@ -2,7 +2,7 @@
 
 Este repositorio contiene una colección de ejemplos muy simples que muestran el uso de diversas tecnologías web: JavaScript, jQuery, AJAX, Express.js, Node.js y Socket.IO. 
 
-![heart](https://github.com/martacanirome4/WebTechPlayground/assets/50625677/8aa090d4-c065-467d-807e-7e169a2ac275)
+![Loving I Love You Sticker by Simon Falk for iOS   Android _ GIPHY](https://github.com/martacanirome4/WebTechPlayground/assets/50625677/b5471f24-480b-4eec-b77a-393e1d3f674f)
 
 
 
