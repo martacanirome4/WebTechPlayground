@@ -10,4 +10,4 @@ server.listen(port, () => {
 console.log(`Server running at port ${port}`);
 });
 
-// run it by executing: "node index.js" from the command line
+//run the code: "node index.js" from the command line

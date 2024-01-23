@@ -1,0 +1,16 @@
+perro
+gato
+casa
+rojo
+azul
+sol
+luna
+playa
+flor
+programa
+javascript
+node
+servidor
+contraseña
+seguridad
+aleatorio
