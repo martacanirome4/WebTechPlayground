@@ -21,16 +21,14 @@ Express.js es un marco de aplicación web para Node.js. Simplifica el proceso de
 
 En el contexto del desarrollo web, especialmente con Node.js y Express.js, "res.", "req." y "app." son términos que se utilizan para referirse a diferentes objetos que desempeñan roles específicos en el manejo de solicitudes y respuestas HTTP. A continuación, se ofrece una breve explicación de cada uno:
 
+#### `req.` (Objeto de solicitud):
+- El objeto `req` representa la solicitud HTTP que recibe la aplicación Express.
+- Contiene información sobre la solicitud entrante, como encabezados, parámetros, cuerpo, etc.
 #### `res.` (Objeto de respuesta):
 - El objeto `res` representa la respuesta HTTP que una aplicación Express envía cuando recibe una solicitud HTTP.
 - Se utiliza para enviar la respuesta al cliente, incluyendo la configuración de encabezados, códigos de estado y el envío de datos.
-
-#### `req.` (Objeto de solicitud):
-- El objeto req representa la solicitud HTTP que recibe la aplicación Express.
-- Contiene información sobre la solicitud entrante, como encabezados, parámetros, cuerpo, etc.
-
-#### 'app'. (Objeto de aplicación):
-- El objeto app representa la propia aplicación Express. Es el nivel superior de la aplicación Express y se utiliza para configurar la aplicación y definir rutas.
+#### `app`. (Objeto de aplicación):
+- El objeto `app` representa la propia aplicación Express. Es el nivel superior de la aplicación Express y se utiliza para configurar la aplicación y definir rutas.
 
 
 ## Node.js
