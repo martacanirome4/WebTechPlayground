@@ -21,6 +21,10 @@ users.register = function(username, pass, callback){
     });
 }
 
+users.getUser = function(username) {
+    return users[username];
+};
+
 users.register('admin', 'admin', function(){
     console.log('User admin successfully registered');
 });
