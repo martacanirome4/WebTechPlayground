@@ -11,6 +11,7 @@ let indexRouter = require('./routes/index');
 let loginRouter = require('./routes/login');
 let registerRouter = require('./routes/register');
 let restrictedRouter = require('./routes/restricted');
+let chatRouter = require('./routes/chat');
 
 let app = express();
 
@@ -45,6 +46,7 @@ app.use('/', indexRouter);
 app.use('/login', loginRouter);
 app.use('/register', registerRouter);
 app.use('/restricted', restrict, restrictedRouter);
+app.use('/chat', restrict, chatRouter);
 app.use('/logout', function(req, res, next){
   req.session.destroy(function(){
     res.redirect("/");

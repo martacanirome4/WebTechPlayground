@@ -6,12 +6,12 @@ const users = require('../users');
 
 router.get('/', function(req, res, next) {
     res.render('register', { title: 'Sign Up', user: req.session.user, error: req.session.error });
-    req.session.error = null; // Limpiar el mensaje de error después de mostrarlo
+    req.session.error = null;
 });
 
 router.post('/', function(req, res, next) {
-    const username = req.body.user;
-    const password = req.body.pass;
+    let username = req.body.user;
+    let password = req.body.pass;
 
     // Verificar si el usuario ya existe
     if (users.getUser(username)) {

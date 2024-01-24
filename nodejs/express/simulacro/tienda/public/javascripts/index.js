@@ -9,18 +9,29 @@ function validateAndSubmit() {
     // Reset error message
     errorMessage.innerHTML = '';
 
+    // Check username
+    if (!username) {
+        errorMessage.innerHTML = 'Username is required.';
+        return false;
+    }
+
     // Check password length
     if (password.length < 8) {
         errorMessage.innerHTML = 'Password must be at least 8 characters long.';
-        return;
+        return false;
     }
 
     // Check if passwords match
     if (password !== confirmPassword) {
         errorMessage.innerHTML = 'Passwords do not match.';
-        return;
+        return false;
     }
 
     // If all validations pass, submit the form
-    document.getElementById('registration-form').submit();
+    return true;
 }
+
+// Attach the validateAndSubmit function to the form's onsubmit event
+document.getElementById('registration-form').onsubmit = function() {
+    return validateAndSubmit();
+};
